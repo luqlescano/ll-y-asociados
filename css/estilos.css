@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 300px;
+    margin-left: 4rem;
+}
+
+.titulo-oculto {
+    display: none;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-right: 4rem;
+    font-weight: 300;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #54595e;
+}
+
+.menu a:hover {
+    color: #cb2426;
+}
+
+.bloque-uno {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/bill-oxford-OXGhu60NwxU-unsplash-scaled.jpg);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloque-uno p {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.bloque-uno div {
+    display: flex;
+    gap: 2rem;
+}
+
+.bloque-uno a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-bloque-uno {
+    background-color: #54595e;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: .5rem;
+}
+
+.bloque-dos {
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.bloque-dos h2 {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.bloque-dos p {
+    color: #7a7a7a;
+}
+
+.bloque-dos a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.asesoria-legal-integral {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.asesoria-legal-integral div {
+    width: 20rem;
+}
+
+.asesoria-legal-integral h3 {
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.caja-icono {
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+.btn-bloque-dos {
+    background-color: #54595e;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.bloque-tres {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/thomas-martinsen-4H9IuFBIpYM-unsplash-scaled.jpg);
+    background-size: cover;
+    height: 300px;
+    padding: 0 10rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.bloque-cuatro {
+    text-align: center;
+    margin: 4rem 0;
+    padding: 0 10rem;
+}
+
+.bloque-cuatro p {
+    color: #7a7a7a;
+}
+
+.bloque-cuatro a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.somos {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #7a7a7a;
+}
+
+.ovv-descripcion {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #7a7a7a;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.footer h3 {
+    font-weight: 500;
+    font-size: 1.6rem;
+    padding-bottom: .8rem;
+}
+
+.footer li {
+    margin-top: 1rem;
+}
+
+.footer p {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.pre-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.iso {
+    width: 150px;
+    margin: 4rem 0;
+}
+
+.main-gris {
+    background-color: #f7f7f7;
+}
+
+.bloque-quienes-somos {
+    text-align: center;
+    padding: 4rem 10rem;
+}
+
+.bloque-quienes-somos img {
+    padding: 2rem 0;
+}
+
+.titulo {
+    font-size: 2.4rem;
+    padding-bottom: 2rem;
+}
+
+.caja-icono-servicios {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    font-size: 3rem;
+    background-color: #861819;
+    color: #fff;
+}
+
+.caja-icono-servicios h3 {
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.contenedor-contacto {
+    display: flex;
+}
+
+.form {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+}
+
+.form input {
+    padding: 1rem;
+}
+
+.form textarea {
+    padding: 1rem;
+}
+
+.bloques-contacto {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 50%;
+}
+
+.bloques-contacto div {
+    width: 20rem;
+}
+
+.bloques-contacto h3 {
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.caja-icono {
+    padding: 1rem;
+    font-size: 3rem;
+}
