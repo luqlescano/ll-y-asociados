@@ -42,6 +42,63 @@
     color: #cb2426;
 }
 
+.abrir-menu,
+.cerrar-menu {
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        margin-right: 4rem;
+        border: 0;
+        font-size: 1.5rem;
+        background-color: transparent;
+        color: #54595e;
+        cursor: pointer;
+    }
+
+    .cerrar-menu {
+        color: #f7f7f7;
+    }
+
+    .menu {
+        opacity: 0;
+        visibility: hidden;
+
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 2rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #861819;
+        padding: 3rem 0rem 3rem 3rem;
+        box-shadow: 0 0 0 100vmax rgba(0,0,0,0.5);
+    }
+
+    .menu.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .menu a {
+        color: #fff;
+    }
+
+    .menu a:hover {
+        color: #f7f7f7;
+    }
+}
+
 .bloque-uno {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/bill-oxford-OXGhu60NwxU-unsplash-scaled.jpg);
     background-size: cover;
