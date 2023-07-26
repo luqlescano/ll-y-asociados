@@ -17,6 +17,8 @@
 .logo {
     width: 300px;
     margin-left: 4rem;
+    display: flex;
+    align-items: center;
 }
 
 .titulo-oculto {
@@ -45,62 +47,6 @@
 .abrir-menu,
 .cerrar-menu {
     display: none;
-}
-
-@media screen and (max-width: 992px) {
-    body.bloqueo-apertura-menu {
-        overflow: hidden;
-    }
-
-    .abrir-menu,
-    .cerrar-menu {
-        display: block;
-        margin-right: 4rem;
-        border: 0;
-        font-size: 1.5rem;
-        background-color: transparent;
-        color: #54595e;
-        cursor: pointer;
-    }
-
-    .cerrar-menu {
-        color: #f7f7f7;
-    }
-
-    .menu {
-        opacity: 0;
-        visibility: hidden;
-
-        display: flex;
-        flex-direction: column;
-        align-items: end;
-        gap: 2rem;
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        background-color: #861819;
-        padding: 3rem 0rem 3rem 3rem;
-        box-shadow: 0 0 0 100vmax rgba(0,0,0,0.5);
-    }
-
-    .menu.visible {
-        opacity: 1;
-        visibility: visible;
-    }
-
-    .menu ul {
-        flex-direction: column;
-        align-items: end;
-    }
-
-    .menu a {
-        color: #fff;
-    }
-
-    .menu a:hover {
-        color: #f7f7f7;
-    }
 }
 
 .bloque-uno {
@@ -327,4 +273,217 @@
 .caja-icono {
     padding: 1rem;
     font-size: 3rem;
+}
+
+@media screen and (max-width: 992px) {
+    body.bloqueo-apertura-menu {
+        overflow: hidden;
+    }
+
+    .logo {
+        width: 280px;
+    }
+
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        margin-right: 4rem;
+        border: 0;
+        font-size: 1.5rem;
+        background-color: transparent;
+        color: #54595e;
+        cursor: pointer;
+    }
+
+    .cerrar-menu {
+        color: #f7f7f7;
+    }
+
+    .menu {
+        opacity: 0;
+        visibility: hidden;
+
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 2rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #861819;
+        padding: 3rem 0rem 3rem 3rem;
+        box-shadow: 0 0 0 100vmax rgba(0,0,0,0.5);
+    }
+
+    .menu.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .menu a {
+        color: #fff;
+    }
+
+    .menu a:hover {
+        color: #f7f7f7;
+    }
+
+    .bloque-uno {
+        height: 400px;
+    }
+
+    .bloque-uno p {
+        font-size: 2.5rem;
+    }
+
+    .bloque-uno a {
+        font-size: .9rem;
+    }
+
+    .btn-bloque-uno {
+        padding: .8rem;
+    }
+
+    .bloque-dos {
+        margin: 3.5rem 0;
+        padding: 0 3.5rem;
+    }
+
+    .bloque-dos h2 {
+        font-size: 1.8rem;
+    }
+
+    .asesoria-legal-integral div {
+        width: 19rem;
+    }
+    
+    .asesoria-legal-integral h3 {
+        font-size: 1.3rem;
+    }
+    
+    .caja-icono {
+        font-size: 2.9rem;
+    }
+
+    .btn-bloque-dos {
+        font-size: .9rem;
+    }
+
+    .bloque-tres {
+        height: 280px;
+        padding: 0 4rem;
+        font-size: 1.6rem;
+    }
+
+    .bloque-cuatro {
+        margin: 3.5rem 0;
+        padding: 0 3.5rem;
+    }
+
+    .somos {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .logo {
+        width: 240px;
+        margin-left: 2rem;
+    }
+
+    .bloque-uno {
+        height: 300px;
+    }
+
+    .bloque-uno p {
+        font-size: 1.4rem;
+    }
+
+    .bloque-uno div {
+        flex-direction: column;
+        gap: 0rem;
+        text-align: center;
+    }
+    
+    .bloque-uno a {
+        font-size: .8rem;
+    }
+
+    .btn-bloque-uno {
+        margin-top: 1rem;
+        padding: .6rem;
+    }
+
+    .bloque-dos {
+        margin: 3rem 0;
+        padding: 0 3rem;
+    }
+
+    .bloque-dos h2 {
+        font-size: 1.5rem;
+    }
+
+    .bloque-dos p {
+        font-size: .9rem;
+    }
+
+    .asesoria-legal-integral {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .asesoria-legal-integral div {
+        width: 18rem;
+    }
+    
+    .asesoria-legal-integral h3 {
+        font-size: 1.2rem;
+    }
+    
+    .caja-icono {
+        font-size: 2.8rem;
+    }
+
+    .btn-bloque-dos {
+        font-size: .8rem;
+    }
+
+    .bloque-tres {
+        height: 260px;
+        padding: 0 3rem;
+        font-size: 1.3rem;
+    }
+
+    .bloque-cuatro {
+        margin: 3rem 0;
+        padding: 0 3rem;
+    }
+
+    .somos {
+        font-size: 1.2rem;
+    }
+    
+    .ovv-descripcion {
+        font-size: .9rem;
+    }
+    
+    .footer p {
+        font-size: .9rem;
+    }
+    
+    .pre-footer {
+        flex-direction: column;
+        margin-bottom: 4rem;
+    }
+    
+    .iso {
+        width: 150px;
+        margin: 4rem 0;
+    }
 }
