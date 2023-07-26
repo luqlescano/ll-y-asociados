@@ -48,7 +48,7 @@
 }
 
 @media screen and (max-width: 992px) {
-    body.abertura-menu {
+    body.bloqueo-apertura-menu {
         overflow: hidden;
     }
 

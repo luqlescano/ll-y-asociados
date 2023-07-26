@@ -4,10 +4,10 @@ const cerrar = document.querySelector("#cerrar");
 
 abrir.addEventListener("click", () => {
     menu.classList.add("visible");
-    document.body.classList.add("abertura-menu");
+    document.body.classList.add("bloqueo-apertura-menu");
 })
 
 cerrar.addEventListener("click", () => {
     menu.classList.remove("visible");
-    document.body.classList.remove("abertura-menu");
+    document.body.classList.remove("bloqueo-apertura-menu");
 })
