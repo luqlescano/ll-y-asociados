@@ -389,6 +389,18 @@
     .somos {
         font-size: 1.5rem;
     }
+
+    .bloque-quienes-somos {
+        padding: 4rem;
+    }
+
+    .titulo {
+        font-size: 2.2rem;
+    }
+
+    .bloque-quienes-somos img {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -485,5 +497,25 @@
     .iso {
         width: 150px;
         margin: 4rem 0;
+    }
+
+    .bloque-quienes-somos {
+        padding: 2rem;
+    }
+
+    .titulo {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-contacto {
+        flex-direction: column;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .bloques-contacto {
+        width: 100%;
     }
 }
