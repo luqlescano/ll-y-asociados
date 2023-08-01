@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto | LL & Asociados - Estudio Jurídico</title>
     <link rel="icon" href="../img/iso-ll-y-asociados.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/main.css">
     <script src="https://kit.fontawesome.com/6de63cbaba.js" crossorigin="anonymous"></script>
 </head>
@@ -32,13 +33,28 @@
             <p class="somos">Para ponerse en contacto con nosotros, comuníquese a través de los distintos medios o bien completando el siguiente formulario:</p>
             <div class="contenedor-contacto">
                 <form action="#" method="POST" class="form">
-                    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
-                    <input type="text" name="apellido" id="apellido" placeholder="Apellido">
-                    <input type="email" name="email" id="email" placeholder="E-mail">
-                    <input type="tel" name="telefono" id="telefono" placeholder="Teléfono">
-                    <input type="text" name="asunto" id="asunto" placeholder="Asunto">
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <input type="submit" value="Enviar">
+                    <!-- Se implemento Bootstrap en los campos del formulario -->
+                    <div>
+                        <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                    </div>
+                    <div>
+                        <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                    </div>
+                    <div>
+                        <input type="email" class="form-control" id="email" placeholder="E-mail">
+                    </div>
+                    <div>
+                        <input type="tel" class="form-control" id="telefono" placeholder="Teléfono">
+                    </div>
+                    <div>
+                        <input type="text" class="form-control" id="asunto" placeholder="Asunto">
+                    </div>
+                    <div>
+                        <textarea class="form-control" id="mensaje" placeholder="Mensaje" style="height: 140px"></textarea>
+                    </div>
+                    <div class="d-grid">
+                        <button class="btn btn-secondary btn-lg" type="submit">Enviar</button>
+                    </div>
                 </form>
                 <div class="bloques-contacto">
                     <div class="caja-icono">
@@ -76,6 +92,7 @@
         <p>&copy 2023 | Todos los derechos reservados</p>
     </footer>
     <!-- fin footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="../js/main.js"></script>
 </body>
 </html>

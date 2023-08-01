@@ -25,12 +25,15 @@
     display: none;
 }
 
+/* Se agregó margin-bottom: 0; para corregir un error que surgió al implementar Bootstrap en la página CONTACTO */
+
 .menu ul {
     list-style: none;
     display: flex;
     flex-direction: row;
     gap: 2rem;
     margin-right: 4rem;
+    margin-bottom: 0;
     font-weight: 300;
 }
 
@@ -184,9 +187,12 @@
     margin-top: 1rem;
 }
 
+/* Se agregó margin-bottom: 0; para corregir un error que surgió al implementar Bootstrap en la página CONTACTO */
+
 .footer p {
     text-align: center;
     padding: 2rem 0;
+    margin-bottom: 0;
 }
 
 .pre-footer {
@@ -213,9 +219,12 @@
     padding: 2rem 0;
 }
 
+/* Se agregó font-weight: 800; por implementar Bootstrap en la página CONTACTO, para que se respete la estética en todo el sitio web */
+
 .titulo {
     font-size: 2.4rem;
     padding-bottom: 2rem;
+    font-weight: 800;
 }
 
 .caja-icono-servicios {
