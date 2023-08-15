@@ -1,0 +1,112 @@
+body.bloqueo-apertura-menu {
+    @include desktop {
+        overflow: hidden;
+    }
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        width: 300px;
+        margin-left: 4rem;
+        display: flex;
+        align-items: center;
+
+        @include desktop {
+            width: 280px;
+        }
+
+        @include mobile {
+            width: 240px;
+            margin-left: 2rem;
+        }
+    }
+
+    .titulo-oculto {
+        display: none;
+    }
+
+    .menu ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        margin-right: 4rem;
+        margin-bottom: 0;
+        font-weight: 300;
+
+        @include desktop {
+            flex-direction: column;
+            align-items: end;
+        }
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $grisOscuro;
+
+            @include desktop {
+                color: $blanco;
+            }
+        }
+
+        a:hover {
+            color: $bordoClaro;
+
+            @include desktop {
+                color: $grisClaro;
+            }
+        }
+    }
+    
+    .abrir-menu,
+    .cerrar-menu {
+        display: none;
+
+        @include desktop {
+            display: block;
+            margin-right: 4rem;
+            border: 0;
+            font-size: 1.5rem;
+            background-color: transparent;
+            color: $grisOscuro;
+            cursor: pointer;
+        }
+    }
+
+    .cerrar-menu {
+        @include desktop {
+            color: $grisClaro;
+        }
+    }
+
+    .menu {
+        @include desktop {
+            opacity: 0;
+            visibility: hidden;
+
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            gap: 2rem;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background-color: $bordo;
+            padding: 3rem 0rem 3rem 3rem;
+            box-shadow: 0 0 0 100vmax rgba(0,0,0,0.5);
+        }
+    }
+
+    .menu.visible {
+        @include desktop {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}

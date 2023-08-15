@@ -1,0 +1,521 @@
+.bloque-uno {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/bill-oxford-OXGhu60NwxU-unsplash-scaled.jpg);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @include desktop {
+        height: 400px;
+    }
+
+    @include mobile {
+        height: 300px;
+    }
+
+    p {
+        color: $blanco;
+        font-size: 3rem;
+
+        @include desktop {
+            font-size: 2.5rem;
+        }
+
+        @include mobile {
+            font-size: 1.4rem;
+        }
+    }
+
+    div {
+        display: flex;
+        gap: 2rem;
+
+        @include mobile {
+            flex-direction: column;
+            gap: 0rem;
+            text-align: center;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: $blanco;
+
+        @include desktop {
+            font-size: .9rem;
+        }
+
+        @include mobile {
+            font-size: .8rem;
+        }
+    }
+
+    .btn-bloque-uno {
+        background-color: $grisOscuro;
+        padding: 1rem;
+        margin-top: 2rem;
+        border-radius: .5rem;
+
+        @include desktop {
+            padding: .8rem;
+        }
+
+        @include mobile {
+            margin-top: 1rem;
+            padding: .6rem;
+        }
+    }
+}
+
+.bloque-dos {
+    text-align: center;
+    margin: 4rem 0;
+
+    @include desktop {
+        margin: 3.5rem 0;
+        padding: 0 3.5rem;
+    }
+
+    @include mobile {
+        margin: 3rem 0;
+        padding: 0 3rem;
+    }
+
+    h2 {
+        text-transform: capitalize;
+        font-weight: 400;
+        font-size: 2rem;
+
+        @include desktop {
+            font-size: 1.8rem;
+        }
+
+        @include mobile {
+            font-size: 1.5rem;
+        }
+    }
+
+    p {
+        color: $texto;
+
+        @include mobile {
+            font-size: .9rem;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: $blanco;
+    }
+
+    .asesoria-legal-integral {
+        margin-top: 4rem;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+
+        @include mobile {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        div {
+            width: 20rem;
+
+            @include desktop {
+                width: 19rem;
+            }
+
+            @include mobile {
+                width: 18rem;
+            }
+        }
+
+        h3 {
+            font-weight: 400;
+            font-size: 1.4rem;
+
+            @include desktop {
+                font-size: 1.3rem;
+            }
+
+            @include mobile {
+                font-size: 1.2rem;
+            }
+        }
+
+        .caja-icono {
+            padding: 1rem;
+            font-size: 3rem;
+
+            @include desktop {
+                font-size: 2.9rem;
+            }
+
+            @include mobile {
+                font-size: 2.8rem;
+            }
+        }
+
+        .btn-bloque-dos {
+            background-color: $grisOscuro;
+            padding: 1rem;
+            border-radius: .5rem;
+
+            @include desktop {
+                font-size: .9rem;
+            }
+
+            @include mobile {
+                font-size: .8rem;
+            }
+        }
+    }
+}
+
+.bloque-tres {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/thomas-martinsen-4H9IuFBIpYM-unsplash-scaled.jpg);
+    background-size: cover;
+    height: 300px;
+    padding: 0 10rem;
+    color: $blanco;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    text-align: center;
+
+    @include desktop {
+        height: 280px;
+        padding: 0 4rem;
+        font-size: 1.6rem;
+    }
+
+    @include mobile {
+        height: 260px;
+        padding: 0 3rem;
+        font-size: 1.3rem;
+    }
+}
+
+.bloque-cuatro {
+    text-align: center;
+    margin: 4rem 0;
+    padding: 0 10rem;
+
+    @include desktop {
+        margin: 3.5rem 0;
+        padding: 0 3.5rem;
+    }
+
+    @include mobile {
+        margin: 3rem 0;
+        padding: 0 3rem;
+    }
+
+    p {
+        color: $texto;
+    }
+
+    a {
+        text-decoration: none;
+        color: $blanco;
+    }
+
+    .somos {
+        font-size: 1.6rem;
+        font-weight: 300;
+        color: $texto;
+
+        @include desktop {
+            font-size: 1.5rem;
+        }
+
+        @include mobile {
+            font-size: 1.2rem;
+        }
+    }
+
+    .asesoria-legal-integral {
+        margin-top: 4rem;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+
+        @include mobile {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        div {
+            width: 20rem;
+
+            @include desktop {
+                width: 19rem;
+            }
+
+            @include mobile {
+                width: 18rem;
+            }
+        }
+
+        h3 {
+            font-weight: 400;
+            font-size: 1.4rem;
+
+            @include desktop {
+                font-size: 1.3rem;
+            }
+
+            @include mobile {
+                font-size: 1.2rem;
+            }
+        }
+
+        .caja-icono {
+            padding: 1rem;
+            font-size: 3rem;
+
+            @include desktop {
+                font-size: 2.9rem;
+            }
+
+            @include mobile {
+                font-size: 2.8rem;
+            }
+        }
+
+        .btn-bloque-dos {
+            background-color: $grisOscuro;
+            padding: 1rem;
+            border-radius: .5rem;
+
+            @include desktop {
+                font-size: .9rem;
+            }
+
+            @include mobile {
+                font-size: .8rem;
+            }
+        }
+
+        .ovv-descripcion {
+            margin-top: 1rem;
+            font-size: 1rem;
+            color: $texto;
+
+            @include mobile {
+                font-size: .9rem;
+            }
+        }
+    }
+}
+
+.main-gris {
+    background-color: $grisClaro;
+
+    .bloque-quienes-somos {
+        text-align: center;
+        padding: 4rem 10rem;
+
+        @include desktop {
+            padding: 4rem;
+        }
+
+        @include mobile {
+            padding: 2rem;
+        }
+
+        img {
+            padding: 2rem 0;
+
+            @include desktop {
+                width: 100%;
+            }
+        }
+
+        .titulo {
+            font-size: 2.4rem;
+            padding-bottom: 2rem;
+            font-weight: 800;
+
+            @include desktop {
+                font-size: 2.2rem;
+            }
+
+            @include mobile {
+                font-size: 1.8rem;
+            }
+        }
+
+        .somos {
+            font-size: 1.6rem;
+            font-weight: 300;
+            color: $texto;
+
+            @include desktop {
+                font-size: 1.5rem;
+            }
+
+            @include mobile {
+                font-size: 1.2rem;
+            }
+        }
+
+        .asesoria-legal-integral {
+            margin-top: 4rem;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+
+            @include mobile {
+                flex-direction: column;
+                align-items: center;
+            }
+    
+            div {
+                width: 20rem;
+
+                @include desktop {
+                    width: 19rem;
+                }
+
+                @include mobile {
+                    width: 18rem;
+                }
+            }
+    
+            h3 {
+                font-weight: 400;
+                font-size: 1.4rem;
+
+                @include desktop {
+                    font-size: 1.3rem;
+                }
+
+                @include mobile {
+                    font-size: 1.2rem;
+                }
+            }
+    
+            .caja-icono {
+                padding: 1rem;
+                font-size: 3rem;
+
+                @include desktop {
+                    font-size: 2.9rem;
+                }
+
+                @include mobile {
+                    font-size: 2.8rem;
+                }
+            }
+    
+            .btn-bloque-dos {
+                background-color: $grisOscuro;
+                padding: 1rem;
+                border-radius: .5rem;
+
+                @include desktop {
+                    font-size: .9rem;
+                }
+
+                @include mobile {
+                    font-size: .8rem;
+                }
+            }
+    
+            .ovv-descripcion {
+                margin-top: 1rem;
+                font-size: 1rem;
+                color: $texto;
+
+                @include mobile {
+                    font-size: .9rem;
+                }
+            }
+        }
+
+        .caja-icono-servicios {
+            margin-bottom: 2rem;
+            padding: 2rem;
+            font-size: 3rem;
+            background-color: #861819;
+            color: #fff;
+
+            h3 {
+                font-weight: 400;
+                font-size: 1.4rem;
+            }
+        }
+
+        .contenedor-contacto {
+            display: flex;
+
+            @include mobile {
+                flex-direction: column;
+            }
+
+            .form {
+                padding: 2rem 0;
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                width: 50%;
+
+                @include mobile {
+                    width: 100%;
+                }
+
+                input {
+                    padding: 1rem;
+                }
+
+                textarea {
+                    padding: 1rem;
+                }
+            }
+
+            .bloques-contacto {
+                margin-top: 4rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+                width: 50%;
+
+                @include mobile {
+                    width: 100%;
+                }
+
+                div {
+                    width: 20rem;
+                }
+
+                h3 {
+                    font-weight: 400;
+                    font-size: 1.4rem;
+                }
+
+                .caja-icono {
+                    padding: 1rem;
+                    font-size: 3rem;
+
+                    .ovv-descripcion {
+                        margin-top: 1rem;
+                        font-size: 1rem;
+                        color: $texto;
+
+                        @include mobile {
+                            font-size: .9rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
