@@ -1,6 +1,7 @@
 .bloque-uno {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/bill-oxford-OXGhu60NwxU-unsplash-scaled.jpg);
     background-size: cover;
+    background-attachment: fixed;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -178,6 +179,7 @@
 .bloque-tres {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/thomas-martinsen-4H9IuFBIpYM-unsplash-scaled.jpg);
     background-size: cover;
+    background-attachment: fixed;
     height: 300px;
     padding: 0 10rem;
     color: $blanco;
