@@ -128,11 +128,13 @@
 }
 @media screen and (max-width: 992px) {
   .bloque-uno {
+    background-attachment: scroll;
     height: 400px;
   }
 }
 @media screen and (max-width: 576px) {
   .bloque-uno {
+    background-attachment: scroll;
     height: 300px;
   }
 }
@@ -321,6 +323,7 @@
 }
 @media screen and (max-width: 992px) {
   .bloque-tres {
+    background-attachment: scroll;
     height: 280px;
     padding: 0 4rem;
     font-size: 1.6rem;
@@ -328,6 +331,7 @@
 }
 @media screen and (max-width: 576px) {
   .bloque-tres {
+    background-attachment: scroll;
     height: 260px;
     padding: 0 3rem;
     font-size: 1.3rem;
